@@ -1,0 +1,36 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config ./webpack.config.js --mode development"
+  },
+  "babel" : {
+    "presets" :[
+      "env",
+      "stage-2",
+      "react"
+    ]
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandni0202/build.git"
+  },
+  "author": "chandni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandni0202/build/issues"
+  },
+  "homepage": "https://github.com/chandni0202/build#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
+}
